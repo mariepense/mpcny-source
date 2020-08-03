@@ -1,0 +1,144 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Your bright future is our mission"
+      content : ""
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : false 
+        label : "Apply now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Your bright future is our mission"
+      content : ""
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : false
+        label : "Apply now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Your bright future is our mission"
+      content : ""
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : false
+        label : "Apply now"
+        link : "contact"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : false 
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Scholorship News"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Our Notice Board"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Our Achievements"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Admission Now"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "About Marie Pense Center"
+  image : "images/about/about-us.jpg"
+  content : "Marie Pense Center (MPC) provides intervention services to children in their home and community settings including: preschools, hospitals, homes, and day care centers. Our goal is to meet the needs of every individual and family that we have the opportunity to work with. We aim to do this in a creative, holistic, caring, and empathetic way."
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Service ################################
+service:
+  enable : true
+  title : "Services"
+  # service item comes from "content/**/service" folder.
+
+########################## Call to action ############################
+cta:
+  enable : false 
+  subtitle : "Click to Join the Advance Workshop"
+  title : "Training In Advannce Networking"
+  button:
+    enable : true
+    label : "join now"
+    link : "contact"
+
+
+######################## Success story #############################
+# success_story:
+#   enable : false 
+#   bg_image : "images/backgrounds/success-story.jpg"
+#   title : "Success Stories"
+#   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+            
+            
+#   ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+#   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+#   # video link
+#   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+# ############################# event ################################
+# event:
+#   enable : false
+#   title : "Upcoming Events"
+#   # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "200"
+
+    # funfact item loop
+    - name : "SERVICES"
+      count : "3"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED PARENTS"
+      count : "2000"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : false
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.
