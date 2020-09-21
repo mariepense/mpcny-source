@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<!-- calendar details -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 content">
+        <h3>{{ .Params.description}}</h3>
+        <table class="table table-striped">
+          {{ .Content }}
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /calendar details -->
+
+{{ end }}
