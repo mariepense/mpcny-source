@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
+    - title : "Respect, thoughtfulness, patience, and an open mind"
       content : ""
       animation_in : "left"
       animation_out : "right"
@@ -15,7 +15,7 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
+    - title : "Creative, holistic, caring, and empathetic"
       content : ""
       animation_in : "left"
       animation_out : "right"
@@ -26,15 +26,6 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : ""
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : false
-        label : "Apply now"
-        link : "contact"
 
 
 ############################### Banner feature ###############################

@@ -55,9 +55,14 @@ URL = "service"
 weight = 2
 
 [[menu.main]]
-weight = 3
 name = "Calendar"
-hasChildren = true
+URL = "calendar"
+weight = 3
+
+# [[menu.main]]
+# weight = 3
+# name = "Pages"
+# hasChildren = true
 
   # [[menu.main]]
   # parent = "Pages"
@@ -141,11 +146,11 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
-[params.subscription]
-enable = false
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+# [params.subscription]
+# enable = false
+# # mailchimp subsciption
+# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
 
 # google map
 [params.map]
@@ -157,29 +162,29 @@ map_marker = "images/marker.png" # marker size 37*55 px
   
 ############################# social site ########################
 [[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+# title = "facebook"
+# icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+# link = "#"
 
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/MariePense"
 
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/mariepensecenter/"
 
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# title = "github"
+# icon = "ti-github" # themify icon : https://themify.me/themify-icons
+# link = "#"
 
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# title = "linkedin"
+# icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+# link = "#"
 
 
 ################################### English language #####################################
@@ -191,3 +196,9 @@ weight = 1
 home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 Marie Pense Center"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

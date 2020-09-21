@@ -6,11 +6,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/about/about-page.jpg"
 # meta description
-description : "Marie Pense Center (MPC) provides intervention services to children in their
-home and community settings including: preschools, hospitals, homes, and day
-care centers. Our goal is to meet the needs of every individual and family that we have the
-opportunity to work with. We aim to do this in a creative, holistic, caring, and
-empathetic way."
+description : "Marie Pense Center (MPC) provides intervention services to children in their home and community settings including: preschools, hospitals, homes, and day care centers. Our goal is to meet the needs of every individual and family that we have the opportunity to work with. We aim to do this in a creative, holistic, caring, and empathetic way."
 ---
 
 ### ABOUT US
