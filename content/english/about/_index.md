@@ -20,13 +20,6 @@ opportunity to work with. We aim to do this in a creative, holistic, caring, and
 empathetic way.
 
 
-### STUFF
-
-MPC therapists are highly qualified Masters level Special Education teachers and
-licensed professionals that are certified and licensed by New York State. They
-embody the mission of the Marie Pense Center in their approaches to working with
-families, children, and other professionals.
-
 ### MPC Mission
 
 To employ respect, thoughtfulness, patience, and an open mind in every

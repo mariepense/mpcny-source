@@ -134,7 +134,7 @@ address = "37 W 20th Street, Suite 909, New York, NY 10011"
 mobile = "+212-362-7010"
 email = "admin@mpcny.org"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/moqpqnba" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
