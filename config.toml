@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://mariepense.github.io"
+baseURL = "https://www.mariepensecenter.com"
 title = "Marie Pense Center"
 theme = "educenter-hugo"
 # post pagination
