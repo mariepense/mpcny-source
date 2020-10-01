@@ -2,7 +2,3 @@
 	path = public
 	url = git@github.com-mpcny:mariepense/mariepense.github.io.git
 	branch = master
-[submodule "public_mariepensecenter"]
-	path = public_mariepensecenter
-	url = https://github.com/mariepense/mpcny.github.io.git
-	branch = master
