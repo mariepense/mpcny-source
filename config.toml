@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.mariepensecenter.com"
+baseURL = "https://www.mpcny.org"
 title = "Marie Pense Center"
 theme = "educenter-hugo"
 # post pagination
