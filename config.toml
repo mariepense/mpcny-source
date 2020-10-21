@@ -2,6 +2,7 @@
 baseURL = "https://www.mpcny.org"
 title = "Marie Pense Center"
 theme = "educenter-hugo"
+publishDir = "../mariepense.github.io"
 # post pagination
 paginate = "6"
 # post excerpt

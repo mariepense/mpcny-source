@@ -17,8 +17,6 @@ type: "service"
 ---
 
 
-### About Service
-
 Applied Behavior Analysis(ABA) is the process of systematically applying
 interventions based upon the principles of learning theory. The goal of using
 ABA is to improve socially significant behaviors to a meaningful degree.

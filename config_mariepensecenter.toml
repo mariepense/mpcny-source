@@ -2,7 +2,7 @@
 baseURL = "https://www.mariepensecenter.com"
 title = "Marie Pense Center"
 theme = "educenter-hugo"
-publishDir = "public_mariepense"
+publishDir = "../mariepensecenter.github.io"
 
 # post pagination
 paginate = "6"

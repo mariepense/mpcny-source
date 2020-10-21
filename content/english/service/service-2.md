@@ -17,8 +17,6 @@ type: "service"
 ---
 
 
-### About Service
-
 All students with disabilities who require special education services have Individualized Education Programs (IEPs). The IEP contains information about your child's interests, strengths, needs, goals, and educational program. It is a legal document that describes how the DOE will provide your child:
 
 * A Free and Appropriate Public Education (FAPE)

@@ -25,8 +25,6 @@ type: "service"
 ---
 
 
-### About Service
-
 Approved as an Early Intervention Provider (EIP) through the Department of
 Health MPC is approved to provide services to infants up to age three in NYC,
 Nassau & Suffolk Counties.
