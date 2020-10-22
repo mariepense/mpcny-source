@@ -249,7 +249,7 @@ a h4:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background: #8484e3;
+    background: #84d5f5;
     opacity: .8; }
 
 .outline-0 {
@@ -262,7 +262,7 @@ a h4:hover {
   background: #ffbc3b !important; }
 
 .bg-secondary {
-  background: #8484e3 !important; }
+  background: #84d5f5 !important; }
 
 .bg-gray {
   background: #f8f8f8; }
@@ -471,10 +471,10 @@ textarea.form-control {
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
-      background: #8484e3; } }
+      background: #84d5f5; } }
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #8484e3; } }
+    background: #84d5f5; } }
 
 .navbar-nav {
   padding-left: 50px;
@@ -482,9 +482,9 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-nav {
       padding-left: 0;
-      background: #8484e3; } }
+      background: #84d5f5; } }
 .nav-bg {
-  background-color: #8484e3; }
+  background-color: #84d5f5; }
 
 .nav-item {
   margin: 0 15px;
