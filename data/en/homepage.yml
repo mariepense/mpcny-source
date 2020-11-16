@@ -114,7 +114,7 @@ funfacts:
 
     # funfact item loop
     - name : "SERVICES"
-      count : "3"
+      count : "4"
 
     # funfact item loop
     - name : "STUDENTS"

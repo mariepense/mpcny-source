@@ -249,7 +249,7 @@ a h4:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background: #84d5f5;
+    background: #6ca4c0;
     opacity: .8; }
 
 .outline-0 {
@@ -262,7 +262,7 @@ a h4:hover {
   background: #ffbc3b !important; }
 
 .bg-secondary {
-  background: #84d5f5 !important; }
+  background: #6ca4c0 !important; }
 
 .bg-gray {
   background: #f8f8f8; }
@@ -471,10 +471,10 @@ textarea.form-control {
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
-      background: #84d5f5; } }
+      background: #6ca4c0; } }
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #84d5f5; } }
+    background: #6ca4c0; } }
 
 .navbar-nav {
   padding-left: 50px;
@@ -482,9 +482,9 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-nav {
       padding-left: 0;
-      background: #84d5f5; } }
+      background: #6ca4c0; } }
 .nav-bg {
-  background-color: #84d5f5; }
+  background-color: #6ca4c0; }
 
 .nav-item {
   margin: 0 15px;
@@ -508,7 +508,7 @@ textarea.form-control {
     transform-origin: bottom; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff; }
+  color: #000080; }
 
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {

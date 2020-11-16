@@ -103,5 +103,16 @@
     });
   });
 
+  $(document).ready(function() {
+    var sound = new Howl({
+      src: ["/audio/somewhereovertherainbow.mp3"],
+      autoplay: true,
+      volume: 0.5,
+      loop: true
+    });
+    sound.play();
+
+  });
+
 
 })(jQuery);

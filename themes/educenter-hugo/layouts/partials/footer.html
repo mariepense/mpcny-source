@@ -107,6 +107,8 @@
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js" crossorigin="anonymous"></script>
+
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
@@ -129,3 +131,5 @@
   ga('send', 'pageview');
 </script>
 {{ end }}
+
+
