@@ -60,33 +60,38 @@ name = "Calendar"
 URL = "calendar"
 weight = 3
 
-# [[menu.main]]
-# weight = 3
-# name = "Pages"
-# hasChildren = true
+[[menu.main]]
+weight = 3
+name = "Resources"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "Sick Leave"
+  URL = "sick_leave"
 
   # [[menu.main]]
-  # parent = "Pages"
+  # parent = "Resources"
   # name = "teacher"
   # URL = "teacher"
 
   # [[menu.main]]
-  # parent = "Pages"
+  # parent = "Resources"
   # name = "notice"
   # URL = "notice"
 
   # [[menu.main]]
-  # parent = "Pages"
+  # parent = "Resources"
   # name = "event"
   # URL = "event"
 
   # [[menu.main]]
-  # parent = "Pages"
+  # parent = "Resources"
   # name = "scholarship"
   # URL = "scholarship"
 
   # [[menu.main]]
-  # parent = "Pages"
+  # parent = "Resources"
   # name = "research"
   # URL = "research"
   

@@ -20,8 +20,6 @@
     }
   });
 
-  
-
   // Background-images
   $('[data-background]').each(function () {
     $(this).css({
@@ -94,6 +92,13 @@
     counter();
   });
 
+  var sound = new Howl({
+    src: ["/audio/somewhereovertherainbow.mp3"],
+    autoplay: true,
+    volume: 0.5,
+    loop: true
+  });
+  sound.pause();
   // Animation
   $(document).ready(function () {
     $('.has-animation').each(function (index) {
@@ -101,16 +106,18 @@
         $(this).addClass('animate-in');
       });
     });
-  });
 
-  $(document).ready(function() {
-    var sound = new Howl({
-      src: ["/audio/somewhereovertherainbow.mp3"],
-      autoplay: true,
-      volume: 0.5,
-      loop: true
-    });
-    sound.play();
+
+    // sound.once('load', function(){
+    //   sound.play();
+    // });
+    if (window.location.pathname === "/") {
+      sound.play();
+    }
+    // $(window).on("hashchange", function() {
+    //   sound.pause();
+    //   console.log(window.location.pathname);
+    // }).trigger("hashchange");
 
   });
 
